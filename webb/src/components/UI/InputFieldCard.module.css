@@ -1,0 +1,31 @@
+.form-group label {
+  display: block;
+  margin-bottom: 8px;
+  font-size: 16px;
+  font-weight: bold;
+  color: #666;
+}
+
+.form-group input {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+.form-group input:focus {
+  outline: none;
+  box-shadow: 0 0 0 2px rgba(66, 153, 225, 0.5);
+  border-color: #42a1f5;
+}
+
+.form-group input::placeholder {
+  color: #aaa;
+}
+
+.form-group {
+  margin-bottom: 20px;
+  position: relative;
+}

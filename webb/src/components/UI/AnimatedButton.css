@@ -1,0 +1,87 @@
+.navbarSignup a span, .navbarContactSignup a span {
+  margin-top: 4px;
+}
+
+.arrowLine {
+  transform: translateX(-10px);
+  opacity: 0;
+}
+
+.navbarSignup a {
+  background-color: #fdfdfe69;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 30px;
+  display: flex;
+  align-items: center;
+  font-size: 15px;
+  padding-left: 25px;
+  height: 35px;
+}
+
+.navbarContactSignup a {
+  text-decoration: none;
+  border-radius: 30px;
+  display: flex;
+  align-items: center;
+  font-size: 15px;
+  padding-left: 25px;
+  height: 35px;
+  color: #fff;
+  background-color: #635bff;
+  transition: background-color 0.3s;
+}
+
+.navbarContactSignup a:hover {
+  background-color: var(--text-color-dark);
+}
+
+.contactSales a {
+  color: var(--text-color-dark);
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+  height: 35px;
+}
+
+.sectionButton a {
+  font-size: 1.3125rem;
+}
+
+.startNow a, 
+.sectionButton a {
+  color: var(--text-color-light);
+  background-color: var(--text-color-dark);
+  border-radius: 30px;
+  padding-left: 25px;
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+  height: 35px;
+}
+
+.contactSales a span, .sectionButton a span {
+  margin-top: 8px;
+}
+.startNow a span {
+  margin-top: 8px;
+}
+
+
+.navbarSignup a:hover {
+    background-color: #fdfdfeb6;
+    transition: 0.3s;
+  }
+
+  @media only screen and (max-width: 768px) {
+    .contactSales a span, .startNow a span {
+      margin-top: 4px;
+    }
+
+    .contactSales a, .startNow a {
+      height: 25px;
+      width: 100px;
+      padding-left: 15px;
+    }
+
+  }

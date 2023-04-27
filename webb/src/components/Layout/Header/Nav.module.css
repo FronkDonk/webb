@@ -1,0 +1,87 @@
+@import url("https://use.typekit.net/nrs8hjb.css");
+
+.nav {
+  box-shadow: 0px 5px 5px rgba(0, 0, 0, 0.1);
+  font-size: 0.9375rem;
+  font-weight: 600;
+  position: relative;
+  z-index: 300;
+
+}
+
+.contact-nav {
+  box-shadow: 0px 5px 5px rgba(0, 0, 0, 0.1);
+  font-size: 0.9375rem;
+  font-weight: 600;
+  color: #12182f;
+}
+
+
+
+.nav p:hover {
+  color: rgb(179, 156, 156);
+  transition: 0.3s;
+}
+
+.navbar-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-left: 18.75rem;
+  margin-right: 18.75rem;
+  padding: 0.9375rem;
+}
+
+.navbar-list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 4.6875rem;
+}
+
+.link {
+  color: #fff;
+  text-decoration: none;
+}
+
+.link-contact {
+  color: #12182f;
+  text-decoration: none;
+}
+
+.link-contact:hover {
+  color: rgb(179, 156, 156);
+  transition: 0.3s;
+}
+
+.link:hover {
+  color: rgb(179, 156, 156);
+  transition: 0.3s;
+  cursor: pointer;
+}
+
+.navbar-signup-contact a {
+  background-color: #831DA0;
+  color: #fff;
+  text-decoration: none;
+  padding: 0.4375rem 3.125rem;
+  border-radius: 1.875rem;
+}
+
+.navbar-signup-contact a:hover {
+  background-color: #12182f;
+  transition: 0.3s;
+}
+
+
+@media only screen and (max-width: 1205px) {
+  .navbar-container {
+    display: none;
+  }
+  .navbar-container {
+    transform: translateX(-100%);
+  }
+}

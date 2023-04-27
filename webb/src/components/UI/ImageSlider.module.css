@@ -1,0 +1,126 @@
+.ImageSliderContainer {
+  height: 100svh;
+  display: flex;
+  flex-direction: column;
+  gap: 5rem;
+  align-items: center;
+  justify-content: center;
+}
+
+.imageAndIcons {
+  width: 100%;
+  height: 100%;
+  max-height: 480px;
+  max-width: 1080px;
+  position: relative;
+}
+
+.slider.inactive {
+  opacity: 0.5;
+}
+
+.slider {
+  border-radius: 20px;
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+  background-position: center;
+  transition-duration: 700ms;
+  overflow-x: hidden;
+
+}
+
+.icons {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  justify-items: center;
+  margin-top: 1.5rem;
+}
+
+.icon {
+  border: 1px solid black;
+  padding: 1.5rem;
+  cursor: pointer;
+  transition: transform 0.3s ease-in-out;
+}
+
+.icon:hover {
+  transform: scale(1.2);
+}
+
+.bar {
+  height: 4px;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+}
+
+.imageTextContainer {
+  margin-left: 30px;
+  padding-top: 25px;
+  color: white;
+  width: 1080px;
+  height: 480px;
+
+}
+
+.imageText {
+  position: absolute;
+  max-height: 480px;
+  max-width: 1080px;
+
+}
+
+.logoAndspan {
+  display: flex;
+
+}
+.logoAndspan > span {
+  position: absolute;
+  right: -990px;
+}
+
+.logoAndspan > span img {
+  width: 40px;
+}
+
+.imageText > h4 {
+  font-size: 30px;
+  position: absolute;
+  bottom: -400px;
+  white-space: nowrap;
+
+}
+
+.imageTextContainer > :nth-child(2) {
+  right: -32px;
+}
+.imageTextContainer > :nth-child(3) {
+  right: -1108px;
+}
+
+.imageTextContainer > :nth-child(4) {
+  right: -2188px;
+}
+
+.imageGradient1 {
+  border-radius: 20px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+@media only screen and (max-width: 768px) {
+  .ImageSliderContainer {
+    padding: 15px;
+  }
+
+  .imageText {
+    white-space: normal;
+  }
+  
+
+  
+}

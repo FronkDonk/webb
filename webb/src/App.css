@@ -1,0 +1,18 @@
+@import url("https://use.typekit.net/nrs8hjb.css");
+
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+}
+
+body {
+  overflow-x: hidden;
+}
+
+:root {
+  --text-color-dark: #12182f;
+  --background-color-white: #fdfdfe;
+  --text-color-light: #fefefe;
+}
+

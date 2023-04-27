@@ -1,0 +1,102 @@
+@import url("https://use.typekit.net/nrs8hjb.css");
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  font-family: "neue-haas-grotesk-display", sans-serif;
+}
+
+body {
+  overflow-x: hidden;
+}
+
+.header {
+  height: 100svh;
+  width: 100svw;
+  flex-direction: column;
+  display: flex;
+  padding-top: 6rem;
+  z-index: 300;
+  position: relative;
+}
+
+.header-content {
+  z-index: 1;
+  color: var(--text-color-dark);
+  margin-left: 18.75rem;
+  margin-bottom: clamp(-12.5rem, -6.25rem, 0rem);
+  display: flex;
+  align-items: center;
+  gap: clamp(6.25rem, 10.9375rem, 12.5rem);
+}
+
+.buttonContainer {
+  display: flex;
+  margin-top: 3rem;
+  font-weight: 500;
+  gap: 1.875rem;
+  font-size: 1.3125rem;
+  align-items: center;
+}
+
+.header-content-text > h1 {
+  font-size: 9.375rem;
+  white-space: nowrap;
+}
+
+.header-content-text > h3 {
+  font-size: 2.625rem;
+  font-weight: 300;
+}
+
+.header-content-image > img {
+  width: 75rem;
+  margin-top: -3.125rem;
+  z-index: 5;
+}
+
+
+
+
+
+@media only screen and (max-width: 768px) {
+  .header {
+    height: 100svh;
+    align-self: center;
+    
+ 
+  }
+
+  .buttonContainer {
+    font-size: 15px;
+    white-space: nowrap;
+    gap: 0;
+  }
+
+  .header {
+    height: 60vh;
+  }
+
+  .filler {
+    display: none;
+  }
+
+  .header-content {
+    margin: 0 auto;    
+    margin-top: 30px;
+    margin-left: 30px;
+    
+  }
+
+  .header-content-text > h1 {
+    font-size: 4rem;
+  }
+
+  .header-content-text > h3 {
+    font-size: 1.5rem;
+  }
+
+  .header-content-image > img {
+    display: none;
+  }
+}

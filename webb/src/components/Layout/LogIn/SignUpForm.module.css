@@ -1,0 +1,80 @@
+.form {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  padding-top: 150px;
+  position: relative;
+  z-index: 15;
+}
+
+.form a {
+  text-decoration: none;
+  color: #5469d4;
+}
+
+.errorMessage {
+  margin-top: 20px;
+  color: #ed5f74;
+}
+
+button {
+  margin-top: 25px;
+}
+
+.signInText {
+  color: #3c4257;
+  margin-bottom: 20px;
+  font-size: 24px;
+}
+
+.custom-shape-divider-bottom-1681245346 {
+  z-index: 1;
+  width: 100%;
+  overflow: hidden;
+  line-height: 0;
+  transform: rotate(180deg);
+  position: relative;
+}
+
+.custom-shape-divider-bottom-1681245346 svg {
+  position: relative;
+  display: block;
+  width: calc(100% + 1.3px);
+  height: 600px;
+  transform: rotateY(180deg);
+}
+
+.custom-shape-divider-bottom-1681245346 .shape-fill {
+  fill: #ffffff;
+}
+
+.filler {
+  height: 25svh;
+  width: 100%;
+  background-color: #fff;
+  z-index: 1;
+}
+
+.wrapper {
+  background-color: #f7fafc;
+  height: 100svh;
+  position: relative;
+}
+
+.shapeContainer {
+  bottom: 0;
+  overflow: hidden;
+  position: absolute;
+}
+
+.shape1 {
+  display: block;
+
+  position: absolute;
+  z-index: 1;
+}
+
+.shap1 svg {
+  transform: rotateY(180deg);
+}

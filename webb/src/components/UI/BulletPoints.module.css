@@ -1,0 +1,25 @@
+.icon-and-text {
+    display: flex;
+    gap: 10px;
+    margin-left: 15px;
+  }
+  
+  .form-side-text {
+    font-weight: 600;
+  }
+  
+  .icon-and-text {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+  }
+  
+  .form-side-text-description {
+    margin-top: 20px;
+    font-weight: 500;
+    align-items: center;
+  }
+  
+  .form-side-text-description > h4 {
+    margin-bottom: 10px;
+  }
