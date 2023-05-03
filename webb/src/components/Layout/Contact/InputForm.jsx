@@ -16,7 +16,6 @@ export default function InputForm() {
 
   function handleSubmit(event) {
     event.preventDefault();
-    console.log("keira knightley is very hot");
     setSubmit(true);
   }
 
